@@ -51,9 +51,10 @@ align-items: center;
 .nvText
 
 {
+    
 font-size: 15px;
 font-family: inter, bold  ;
-font-weight: 600;
+font-weight: 550;
 
 color: #2a5a86;
 
@@ -64,6 +65,7 @@ color: #2a5a86;
 .nvElem
 
 {
+    text-decoration: none;
     align-items: center;
 display: flex;
 justify-content: center;
@@ -86,7 +88,7 @@ justify-content: center;
 align-items: center;
 flex-direction: row;
 flex-wrap: nowrap;
-gap: 1rem;
+
 
 
 }
@@ -118,7 +120,7 @@ flex-direction: row;
 .nvElem:hover
 
 {
-
+cursor: pointer;
 background-color: rgba(8, 8, 8, 0.062);
 border-radius: 9px;
 
@@ -182,7 +184,7 @@ border-radius: 90px;
 #aieka
 
 {
-
+text-align: center;
 height: 13rem;
 width: 13rem;
 
@@ -215,25 +217,30 @@ box-shadow: 0rem 1px 10px #00000059 ;
 .newsletter
 
 {
+
 display: flex;
-justify-content: space-evenly;
-align-items: center;
+justify-content: space-between;
+align-items: left;
 padding-top: 1rem;
+flex-direction: row;
 
 }
 
 .subText
 
 {
-font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 14px;
+font-family:  'helvetica';
+opacity: 770%;
 
 
 }
 
+
 .parteAbajo
 
 {
+    justify-content: center;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -253,10 +260,19 @@ font-family: inter;
 padding-left: 1.5rem;
 padding-right: 1.5rem;
 font-size: 23px;
-font-weight: 350;
-padding-top: 1rem;
+font-weight: 390;
+padding-top: 0.5rem;
 }
+.columna
 
+{
+    
+    flex-direction: column;
+display: flex;
+gap: 2rem;
+
+
+}
 .menuHover
 
 {
@@ -270,13 +286,13 @@ height: auto;
 display: flex;
 align-items: left;
 flex-direction: column;
-gap: 1.5rem;
+gap: 0.5rem;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
-padding-left: 1rem;
-padding-right: 1rem;
-padding-top: 1.5rem;
-padding-bottom: 1.5rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
 
 
 }
@@ -284,6 +300,12 @@ padding-bottom: 1.5rem;
 .textoHover
 
 {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    height: 2rem;
 font-weight: 300;
 font-family: inter;
 font-size: 15px;
@@ -291,27 +313,159 @@ text-decoration: none;
 color: #0e3f6d;
 
 }
-#banana
-{
 
-visibility: visible;
 
-}
+
 #primaria
 
 {
 visibility: hidden;
-top: 4rem;
-left:15rem;
+
+}
+.navBox
+{
+height: 4rem;
+display: flex;
+align-items: center;
+
+
 }
 
-#banana:hover + #primaria
+
+.navBox:hover  #primaria
 
 {
 
 visibility: visible;
 top: 4rem;
-left:15rem;
-    
+left:18.4vw;
+
+}
+
+#primaria:hover
+
+
+{
+
+visibility: visible;
+
+}
+
+.textoHover:hover
+{
+  transition: ease-in 0.25s;
+background-color: #ccdbf976;
+
+}
+#nv2:hover  #secundaria
+
+{
+
+visibility: visible;
+top: 4rem;
+left:25.25vw;
+
+}
+#secundaria
+{
+
+visibility: hidden ;
+
+}
+#secundaria:hover
+
+
+{
+
+visibility: visible;
+
+}
+
+
+#nv3:hover  #terciario
+
+{
+
+visibility: visible;
+top: 4rem;
+left:33.75vw;
+
+}
+#terciario
+{
+
+visibility: hidden ;
+
+}
+#terciario:hover
+
+
+{
+
+visibility: visible;
+
+}
+
+
+
+#nv4:hover  #extension
+
+{
+
+visibility: visible;
+top: 4rem;
+left:40.5vw;
+
+}
+#extension
+{
+
+visibility: hidden ;
+
+}
+#extension:hover
+
+
+{
+
+visibility: visible;
+
+}
+
+
+.link
+
+{
+
+text-decoration: none;
+
+
+}
+
+.user
+
+{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+width: auto;
+height: 4rem;
+
+
+}
+.icons {
+display: flex;
+align-items: center;
+justify-content: center;
+    height:4rem;
+    width: 4rem;
+}
+.icons:hover
+
+{
+
+background-color: #0000001a;
+
 
 }
