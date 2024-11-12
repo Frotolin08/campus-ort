@@ -1,0 +1,317 @@
+@font-face {
+    font-family: inter ;
+    src: url(/archivos/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+
+
+html
+
+{
+padding-top: 5rem;
+background-color: #e8e4e4;
+display: flex;
+
+align-items: column;
+justify-content: center;
+}
+
+.navBar
+{
+   display: flex;
+   justify-content: space;
+   align-items: center;
+   justify-content: center;
+   gap: 8rem;
+   
+ 
+
+overflow: hidden;
+top: 0px;
+left: 0%;
+height: 4rem;
+width: 100%;
+background-color: #fff;
+position: fixed;
+box-shadow: 0rem 1px 10px #00000059 ;
+
+}
+
+.elementsLeft
+
+{
+display: flex;
+flex-direction: row;
+gap: 3rem;
+justify-content: center;
+align-items: center;
+}
+
+.nvText
+
+{
+font-size: 15px;
+font-family: inter, bold  ;
+font-weight: 600;
+
+color: #2a5a86;
+
+
+
+}
+
+.nvElem
+
+{
+    align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: row;
+gap: 0.5rem;
+text-wrap: nowrap;
+height: 1.75rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+
+}
+
+
+.elementsRight
+
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 1rem;
+
+
+}
+
+
+.nombre
+
+{
+    font-size: 15px;
+color: #181baf;
+font-family: inter ;
+font-weight: 550;
+text-wrap: wrap;
+width: 9rem;
+
+
+}
+
+.nvMenus
+
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+
+.nvElem:hover
+
+{
+
+background-color: rgba(8, 8, 8, 0.062);
+border-radius: 9px;
+
+
+
+}
+
+#editorial
+
+{
+
+    padding-left: 1rem;
+}
+
+.tituloORT
+
+{
+display: flex;
+justify-content: center;
+align-items: end;
+background-image: url(/archivos/ssss.jpg);
+background-size: contain;
+height: 14rem;
+width: 73rem;
+box-shadow: 0rem 1px 10px #00000059 ;
+}
+
+.barraAbajo
+
+
+{
+padding-left: 2.75rem;
+display: flex;
+align-items: center;
+gap: 58rem;
+height: 20%;
+width: 100%;
+background-color: #fff;
+
+
+}
+
+.titleText
+
+{
+font-size: 14px;
+font-family: inter;
+color: #0e3f6d;
+text-decoration: none;
+font-weight: 400;
+}
+
+#icon
+
+{
+height: 3rem;
+width: 3rem;
+border-radius: 90px;
+
+}
+#aieka
+
+{
+
+height: 13rem;
+width: 13rem;
+
+}
+.pedazo
+
+{
+    
+background-color: #00000034;
+height:1px;
+width: 23rem;
+
+
+}
+.noticia
+
+{
+display: flex;
+gap: 0.5rem;
+
+flex-direction: column;
+ 
+background-color: #fff;
+height: auto;
+width: 23rem;
+box-shadow: 0rem 1px 10px #00000059 ;
+}
+
+
+.newsletter
+
+{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 1rem;
+
+}
+
+.subText
+
+{
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.parteAbajo
+
+{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+
+}
+
+.tituloNot
+
+{
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #2aa4ec;
+font-family: inter;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+font-size: 23px;
+font-weight: 350;
+padding-top: 1rem;
+}
+
+.menuHover
+
+{
+
+background-color: #fff;
+position: absolute;
+position: fixed;
+box-shadow: 0rem 1px 10px #00000059 ;
+width: 13rem;
+height: auto;
+display: flex;
+align-items: left;
+flex-direction: column;
+gap: 1.5rem;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+padding-left: 1rem;
+padding-right: 1rem;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+
+
+}
+
+.textoHover
+
+{
+font-weight: 300;
+font-family: inter;
+font-size: 15px;
+text-decoration: none;
+color: #0e3f6d;
+
+}
+#banana
+{
+
+visibility: visible;
+
+}
+#primaria
+
+{
+visibility: hidden;
+top: 4rem;
+left:15rem;
+}
+
+#banana:hover + #primaria
+
+{
+
+visibility: visible;
+top: 4rem;
+left:15rem;
+    
+
+}
