@@ -469,3 +469,84 @@ background-color: #0000001a;
 
 
 }
+
+.icons:hover
+{
+
+cursor: pointer;
+
+}
+
+
+
+.sideBar
+
+
+{
+    padding-top: 1rem;
+    width: 29vw;
+display: flex;
+flex-direction: column;
+padding-left: 1rem;
+position: absolute;
+justify-content: flex-start;
+position: fixed;
+overflow-y: scroll;
+background-color: #fff;
+right: 0;
+top: 4rem;
+box-shadow: 0rem 1px 10px #00000059 ;
+
+
+}
+
+.sideBarElement
+
+{
+    gap: 1vw;
+align-items: center;
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+
+}
+
+.sideBarIco
+
+{
+
+height: 8%;
+width: 8%;
+
+
+}
+
+.sideBarText
+
+{
+opacity: 80%;
+font-family: inter;
+font-size: 17px;
+font-weight: 520;
+
+
+
+}
+
+.icon2
+
+{
+
+height: 11%;
+width: 11%;
+
+}
+
+
+#misContenidos
+
+{
+margin-left: -0.25rem;
+
+
+}
