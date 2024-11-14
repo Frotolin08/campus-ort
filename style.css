@@ -9,6 +9,7 @@
 html
 
 {
+  
 padding-top: 5rem;
 background-color: #e8e4e4;
 display: flex;
@@ -483,8 +484,9 @@ cursor: pointer;
 
 
 {
+    
     padding-top: 1rem;
-    width: 29vw;
+    width: 26vw;
 display: flex;
 flex-direction: column;
 padding-left: 1rem;
@@ -493,16 +495,18 @@ justify-content: flex-start;
 position: fixed;
 overflow-y: scroll;
 background-color: #fff;
-right: 0;
+right: -28vw;
 top: 4rem;
 box-shadow: 0rem 1px 10px #00000059 ;
-
-
+height: calc(100vh - 5rem);
+transition: 0.25s;
 }
 
 .sideBarElement
 
 {
+    
+    
     gap: 1vw;
 align-items: center;
 display: flex;
@@ -514,8 +518,9 @@ flex-direction: row;
 .sideBarIco
 
 {
-
-height: 8%;
+   
+margin-left: 0.15rem;
+height: 50%;
 width: 8%;
 
 
@@ -524,6 +529,7 @@ width: 8%;
 .sideBarText
 
 {
+    
 opacity: 80%;
 font-family: inter;
 font-size: 17px;
@@ -537,7 +543,7 @@ font-weight: 520;
 
 {
 
-height: 11%;
+height: 61%;
 width: 11%;
 
 }
@@ -550,3 +556,59 @@ margin-left: -0.25rem;
 
 
 }
+
+#superContenidos
+
+{
+
+margin-left: 0.25rem;
+
+
+}
+
+
+.icon3
+
+
+{
+
+height: 85%;
+width: 15%;
+
+}
+
+#Suscripciones
+
+
+{
+
+margin-left: 0.6rem;
+
+}
+
+.icon4
+
+
+{
+
+width: 13%;
+height: 63%;
+
+}
+
+#guia
+
+{
+
+margin-left: 0.25rem;
+
+}
+
+.sideBarElement:hover
+{
+
+cursor: pointer;
+
+
+}
+
