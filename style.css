@@ -20,6 +20,7 @@ justify-content: center;
 
 .navBar
 {
+    z-index: 100;
    display: flex;
    justify-content: space;
    align-items: center;
@@ -485,21 +486,21 @@ cursor: pointer;
 
 {
     
+    z-index: 100;
     padding-top: 1rem;
     width: 26vw;
 display: flex;
 flex-direction: column;
 padding-left: 1rem;
-position: absolute;
-justify-content: flex-start;
 position: fixed;
+justify-content: flex-start;
 overflow-y: scroll;
 background-color: #fff;
 right: -28vw;
 top: 4rem;
-box-shadow: 0rem 1px 10px #00000059 ;
+box-shadow: 0rem 1px 7px #00000059 ;
 height: calc(100vh - 5rem);
-transition: 0.25s;
+transition: 0.5s;
 }
 
 .sideBarElement
@@ -612,3 +613,20 @@ cursor: pointer;
 
 }
 
+.overlay
+
+{
+   
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+background-color: #0000005d;
+height:100vh;
+width: 100vw;
+
+visibility: hidden;
+
+
+
+}

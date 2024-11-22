@@ -10,7 +10,8 @@
     <title>ORT Argentina - Campus Virtual</title>
     <link rel="icon" href="archivos/image-removebg-preview.png">
 </head>
-<div class="navBar">
+
+<div class="navBar" >
         
     <div class="elementsLeft">
         <a href="">
@@ -107,14 +108,14 @@
         <img  src="/archivos/notifications_24dp_5F6368_FILL1_wght400_GRAD0_opsz24.svg">
     </div>
     </a>
-    <div class="icons">
-        <img onclick="sideBar()" src="/archivos/menu_24dp_5F6368_FILL1_wght400_GRAD0_opsz24.svg">
+    <div id="sideButton" class="icons" onclick="openSideBar()">
+        <img  src="/archivos/menu_24dp_5F6368_FILL1_wght400_GRAD0_opsz24.svg">
     </div>
         
         
         </div>
         </div>
-        <div class="sideBar">
+        <div class="sideBar" id="sideBar">
             <div class="sideBarElement"><img class="sideBarIco"src="archivos/image-removebg-preview (5).png"> <p class="sideBarText">Dashboard</p></div> 
             <div class="sideBarElement"><img class="sideBarIco"src="archivos/image-removebg-preview (6).png"> <p class="sideBarText">Mi curso</p></div>
             <div id="misContenidos" class="sideBarElement"><img  class="icon2" src="archivos/image-removebg-preview (7).png"> <p  class="sideBarText">Mis contenidos</p></div>
@@ -130,8 +131,8 @@
             
             </div>  
        
-<body>
-    
+<body id="body">
+    <div class="overlay" id="overlay" onclick="closeSideBar()"></div>
     <div class="tituloORT">
 <div class="barraAbajo">
 <a class="titleText" href="http://127.0.0.1:5500/">ORT Argentina</a>
@@ -198,4 +199,4 @@
 
 </body>
 </html>
-<script src="./script.js"
+<script src="./script.js"></script>
