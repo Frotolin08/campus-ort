@@ -9,7 +9,7 @@
 html
 
 {
-  
+
 padding-top: 5rem;
 background-color: #e8e4e4;
 display: flex;
@@ -22,7 +22,7 @@ justify-content: center;
 {
     z-index: 100;
    display: flex;
-   justify-content: space;
+   
    align-items: center;
    justify-content: center;
    gap: 8rem;
@@ -119,12 +119,25 @@ flex-direction: row;
 
 }
 
-.nvElem:hover
+.navBox:hover .nvElem
 
 {
 cursor: pointer;
 background-color: rgba(8, 8, 8, 0.062);
 border-radius: 9px;
+transition: ease-in 0.2s;
+
+
+
+}
+
+.nvElem:hover 
+
+{
+cursor: pointer;
+background-color: rgba(8, 8, 8, 0.062);
+border-radius: 9px;
+transition: ease-in 0.2s;
 
 
 
@@ -355,7 +368,7 @@ visibility: visible;
 
 .textoHover:hover
 {
-  transition: ease-in 0.25s;
+  transition: ease-in 0.15s;
 background-color: #ccdbf976;
 
 }
@@ -624,9 +637,48 @@ cursor: pointer;
 background-color: #0000005d;
 height:100vh;
 width: 100vw;
-
+opacity: 0%;
 visibility: hidden;
+transition: ease 0.25s;
 
 
+
+
+}
+
+.moreButtonModal
+
+{
+width: 13vw;
+height: 0vh;
+position: absolute;
+background-color: #fff;
+box-shadow: 0rem 1px 5px #00000059 ;
+display: flex;
+align-items: center ;
+justify-content: center;
+color: #2aa4ec;
+right: 12vw;
+top: 45.5vh;
+transition: ease 0.2s;
+opacity: 0%;
+
+}
+
+.moreButtonModal:hover
+
+{
+background-color: #2aa4ec;
+color: #fff;
+transition: linear 0.2s;
+
+
+}
+
+#moreButton:hover
+
+{
+
+cursor: pointer;
 
 }
